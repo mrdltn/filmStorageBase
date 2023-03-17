@@ -1,0 +1,21 @@
+{
+  "name": "db_search_films",
+  "version": "1.0.0",
+  "description": "kinopoisk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Miroslav Dolotin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  }
+}
